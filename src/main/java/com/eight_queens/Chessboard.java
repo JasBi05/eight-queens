@@ -13,7 +13,7 @@ public class Chessboard {
      public Chessboard() {
         for (int row = 0; row < board.length; row++) {
             for (int col = 0; col < board[0].length; col++) {
-                board[row][col] = "";
+                board[row][col] = "_";
             }
         }
     }
